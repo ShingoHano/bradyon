@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34885178162E8FAF00558A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34885177162E8FAF00558A30 /* UIKit.framework */; };
+		3488517A162E8FAF00558A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34885179162E8FAF00558A30 /* Foundation.framework */; };
+		3488517C162E8FAF00558A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3488517B162E8FAF00558A30 /* CoreGraphics.framework */; };
+		34885182162E8FB000558A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34885180162E8FB000558A30 /* InfoPlist.strings */; };
+		34885184162E8FB000558A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34885183162E8FB000558A30 /* main.m */; };
+		34885188162E8FB000558A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34885187162E8FB000558A30 /* AppDelegate.m */; };
+		3488518A162E8FB000558A30 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34885189162E8FB000558A30 /* Default.png */; };
+		3488518C162E8FB000558A30 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488518B162E8FB000558A30 /* Default@2x.png */; };
+		3488518E162E8FB000558A30 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488518D162E8FB000558A30 /* Default-568h@2x.png */; };
+		34885191162E8FB000558A30 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34885190162E8FB000558A30 /* FirstViewController.m */; };
+		34885193162E8FB000558A30 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 34885192162E8FB000558A30 /* first.png */; };
+		34885195162E8FB000558A30 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34885194162E8FB000558A30 /* first@2x.png */; };
+		34885198162E8FB000558A30 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34885197162E8FB000558A30 /* SecondViewController.m */; };
+		3488519A162E8FB000558A30 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 34885199162E8FB000558A30 /* second.png */; };
+		3488519C162E8FB000558A30 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3488519B162E8FB000558A30 /* second@2x.png */; };
+		3488519F162E8FB000558A30 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3488519D162E8FB000558A30 /* FirstViewController.xib */; };
+		348851A2162E8FB000558A30 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 348851A0162E8FB000558A30 /* SecondViewController.xib */; };
+		348851AA162E8FB000558A30 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348851A9162E8FB000558A30 /* SenTestingKit.framework */; };
+		348851AB162E8FB000558A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34885177162E8FAF00558A30 /* UIKit.framework */; };
+		348851AC162E8FB000558A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34885179162E8FAF00558A30 /* Foundation.framework */; };
+		348851B4162E8FB000558A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 348851B2162E8FB000558A30 /* InfoPlist.strings */; };
+		348851B7162E8FB000558A30 /* bradyonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348851B6162E8FB000558A30 /* bradyonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		348851AD162E8FB000558A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3488516A162E8FAF00558A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34885172162E8FAF00558A30;
+			remoteInfo = bradyon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34885173162E8FAF00558A30 /* bradyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bradyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34885177162E8FAF00558A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34885179162E8FAF00558A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3488517B162E8FAF00558A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3488517F162E8FB000558A30 /* bradyon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bradyon-Info.plist"; sourceTree = "<group>"; };
+		34885181162E8FB000558A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34885183162E8FB000558A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34885185162E8FB000558A30 /* bradyon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bradyon-Prefix.pch"; sourceTree = "<group>"; };
+		34885186162E8FB000558A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34885187162E8FB000558A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34885189162E8FB000558A30 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3488518B162E8FB000558A30 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3488518D162E8FB000558A30 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3488518F162E8FB000558A30 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		34885190162E8FB000558A30 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		34885192162E8FB000558A30 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		34885194162E8FB000558A30 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		34885196162E8FB000558A30 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		34885197162E8FB000558A30 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		34885199162E8FB000558A30 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3488519B162E8FB000558A30 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3488519E162E8FB000558A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		348851A1162E8FB000558A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		348851A8162E8FB000558A30 /* bradyonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bradyonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		348851A9162E8FB000558A30 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		348851B1162E8FB000558A30 /* bradyonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bradyonTests-Info.plist"; sourceTree = "<group>"; };
+		348851B3162E8FB000558A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		348851B5162E8FB000558A30 /* bradyonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bradyonTests.h; sourceTree = "<group>"; };
+		348851B6162E8FB000558A30 /* bradyonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bradyonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34885170162E8FAF00558A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34885178162E8FAF00558A30 /* UIKit.framework in Frameworks */,
+				3488517A162E8FAF00558A30 /* Foundation.framework in Frameworks */,
+				3488517C162E8FAF00558A30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348851A4162E8FB000558A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348851AA162E8FB000558A30 /* SenTestingKit.framework in Frameworks */,
+				348851AB162E8FB000558A30 /* UIKit.framework in Frameworks */,
+				348851AC162E8FB000558A30 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34885168162E8FAF00558A30 = {
+			isa = PBXGroup;
+			children = (
+				3488517D162E8FB000558A30 /* bradyon */,
+				348851AF162E8FB000558A30 /* bradyonTests */,
+				34885176162E8FAF00558A30 /* Frameworks */,
+				34885174162E8FAF00558A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34885174162E8FAF00558A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34885173162E8FAF00558A30 /* bradyon.app */,
+				348851A8162E8FB000558A30 /* bradyonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34885176162E8FAF00558A30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34885177162E8FAF00558A30 /* UIKit.framework */,
+				34885179162E8FAF00558A30 /* Foundation.framework */,
+				3488517B162E8FAF00558A30 /* CoreGraphics.framework */,
+				348851A9162E8FB000558A30 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3488517D162E8FB000558A30 /* bradyon */ = {
+			isa = PBXGroup;
+			children = (
+				34885186162E8FB000558A30 /* AppDelegate.h */,
+				34885187162E8FB000558A30 /* AppDelegate.m */,
+				3488518F162E8FB000558A30 /* FirstViewController.h */,
+				34885190162E8FB000558A30 /* FirstViewController.m */,
+				34885192162E8FB000558A30 /* first.png */,
+				34885194162E8FB000558A30 /* first@2x.png */,
+				34885196162E8FB000558A30 /* SecondViewController.h */,
+				34885197162E8FB000558A30 /* SecondViewController.m */,
+				34885199162E8FB000558A30 /* second.png */,
+				3488519B162E8FB000558A30 /* second@2x.png */,
+				3488519D162E8FB000558A30 /* FirstViewController.xib */,
+				348851A0162E8FB000558A30 /* SecondViewController.xib */,
+				3488517E162E8FB000558A30 /* Supporting Files */,
+			);
+			path = bradyon;
+			sourceTree = "<group>";
+		};
+		3488517E162E8FB000558A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3488517F162E8FB000558A30 /* bradyon-Info.plist */,
+				34885180162E8FB000558A30 /* InfoPlist.strings */,
+				34885183162E8FB000558A30 /* main.m */,
+				34885185162E8FB000558A30 /* bradyon-Prefix.pch */,
+				34885189162E8FB000558A30 /* Default.png */,
+				3488518B162E8FB000558A30 /* Default@2x.png */,
+				3488518D162E8FB000558A30 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		348851AF162E8FB000558A30 /* bradyonTests */ = {
+			isa = PBXGroup;
+			children = (
+				348851B5162E8FB000558A30 /* bradyonTests.h */,
+				348851B6162E8FB000558A30 /* bradyonTests.m */,
+				348851B0162E8FB000558A30 /* Supporting Files */,
+			);
+			path = bradyonTests;
+			sourceTree = "<group>";
+		};
+		348851B0162E8FB000558A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				348851B1162E8FB000558A30 /* bradyonTests-Info.plist */,
+				348851B2162E8FB000558A30 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34885172162E8FAF00558A30 /* bradyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348851BA162E8FB000558A30 /* Build configuration list for PBXNativeTarget "bradyon" */;
+			buildPhases = (
+				3488516F162E8FAF00558A30 /* Sources */,
+				34885170162E8FAF00558A30 /* Frameworks */,
+				34885171162E8FAF00558A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bradyon;
+			productName = bradyon;
+			productReference = 34885173162E8FAF00558A30 /* bradyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		348851A7162E8FB000558A30 /* bradyonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 348851BD162E8FB000558A30 /* Build configuration list for PBXNativeTarget "bradyonTests" */;
+			buildPhases = (
+				348851A3162E8FB000558A30 /* Sources */,
+				348851A4162E8FB000558A30 /* Frameworks */,
+				348851A5162E8FB000558A30 /* Resources */,
+				348851A6162E8FB000558A30 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				348851AE162E8FB000558A30 /* PBXTargetDependency */,
+			);
+			name = bradyonTests;
+			productName = bradyonTests;
+			productReference = 348851A8162E8FB000558A30 /* bradyonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3488516A162E8FAF00558A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "羽野 真悟";
+			};
+			buildConfigurationList = 3488516D162E8FAF00558A30 /* Build configuration list for PBXProject "bradyon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34885168162E8FAF00558A30;
+			productRefGroup = 34885174162E8FAF00558A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34885172162E8FAF00558A30 /* bradyon */,
+				348851A7162E8FB000558A30 /* bradyonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34885171162E8FAF00558A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34885182162E8FB000558A30 /* InfoPlist.strings in Resources */,
+				3488518A162E8FB000558A30 /* Default.png in Resources */,
+				3488518C162E8FB000558A30 /* Default@2x.png in Resources */,
+				3488518E162E8FB000558A30 /* Default-568h@2x.png in Resources */,
+				34885193162E8FB000558A30 /* first.png in Resources */,
+				34885195162E8FB000558A30 /* first@2x.png in Resources */,
+				3488519A162E8FB000558A30 /* second.png in Resources */,
+				3488519C162E8FB000558A30 /* second@2x.png in Resources */,
+				3488519F162E8FB000558A30 /* FirstViewController.xib in Resources */,
+				348851A2162E8FB000558A30 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348851A5162E8FB000558A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348851B4162E8FB000558A30 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		348851A6162E8FB000558A30 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3488516F162E8FAF00558A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34885184162E8FB000558A30 /* main.m in Sources */,
+				34885188162E8FB000558A30 /* AppDelegate.m in Sources */,
+				34885191162E8FB000558A30 /* FirstViewController.m in Sources */,
+				34885198162E8FB000558A30 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		348851A3162E8FB000558A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348851B7162E8FB000558A30 /* bradyonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		348851AE162E8FB000558A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34885172162E8FAF00558A30 /* bradyon */;
+			targetProxy = 348851AD162E8FB000558A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34885180162E8FB000558A30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34885181162E8FB000558A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3488519D162E8FB000558A30 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3488519E162E8FB000558A30 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		348851A0162E8FB000558A30 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348851A1162E8FB000558A30 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		348851B2162E8FB000558A30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				348851B3162E8FB000558A30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		348851B8162E8FB000558A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		348851B9162E8FB000558A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		348851BB162E8FB000558A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bradyon/bradyon-Prefix.pch";
+				INFOPLIST_FILE = "bradyon/bradyon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		348851BC162E8FB000558A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bradyon/bradyon-Prefix.pch";
+				INFOPLIST_FILE = "bradyon/bradyon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		348851BE162E8FB000558A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bradyon.app/bradyon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bradyon/bradyon-Prefix.pch";
+				INFOPLIST_FILE = "bradyonTests/bradyonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		348851BF162E8FB000558A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/bradyon.app/bradyon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bradyon/bradyon-Prefix.pch";
+				INFOPLIST_FILE = "bradyonTests/bradyonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3488516D162E8FAF00558A30 /* Build configuration list for PBXProject "bradyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348851B8162E8FB000558A30 /* Debug */,
+				348851B9162E8FB000558A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		348851BA162E8FB000558A30 /* Build configuration list for PBXNativeTarget "bradyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348851BB162E8FB000558A30 /* Debug */,
+				348851BC162E8FB000558A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		348851BD162E8FB000558A30 /* Build configuration list for PBXNativeTarget "bradyonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				348851BE162E8FB000558A30 /* Debug */,
+				348851BF162E8FB000558A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3488516A162E8FAF00558A30 /* Project object */;
+}
