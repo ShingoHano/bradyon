@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+//NSInteger lock;                 // lockフラグ
+//NSString *passString;           // パスワード文字列
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
