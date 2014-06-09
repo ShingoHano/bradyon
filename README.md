@@ -8,6 +8,8 @@ by two screen display function, auto-reload function, the touch pad operation.
 ![Alt text](http://nntp.ie-t.net/images/bradyon3.png)
 ![Alt text](http://nntp.ie-t.net/images/bradyon11.png)
 ![Alt text](http://nntp.ie-t.net/images/bradyon12.png)
+![Alt text](http://nntp.ie-t.net/images/bradyon13.png)
+![Alt text](http://nntp.ie-t.net/images/bradyon14.png)
 
 
 Features
@@ -34,17 +36,15 @@ MBAlertView
 <https://github.com/mobitar/MBAlertView>
 
 
-BButton
-
-
-<https://github.com/jessesquires/BButton>
-
-
 DDSocial Dialog
+
+
 <https://github.com/digdog/DDSocialDialog>
 
 
 BButton
+
+
 <https://github.com/mattlawer/BButton>
 
 
