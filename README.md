@@ -4,12 +4,12 @@ bradyon
 It is a tab browser application for iOS which was characterized  
 by two screen display function, auto-reload function, the touch pad operation.  
 
-![Alt text](http://nntp.ie-t.net/images/bradyon1.png)
-![Alt text](http://nntp.ie-t.net/images/bradyon3.png)
-![Alt text](http://nntp.ie-t.net/images/bradyon11.png)
-![Alt text](http://nntp.ie-t.net/images/bradyon12.png)
-![Alt text](http://nntp.ie-t.net/images/bradyon13.png)
-![Alt text](http://nntp.ie-t.net/images/bradyon14.png)
+![Alt text](http://priolo.wktk.so/images/bradyon1.png)
+![Alt text](http://priolo.wktk.so/images/bradyon3.png)
+![Alt text](http://priolo.wktk.so/images/bradyon11.png)
+![Alt text](http://priolo.wktk.so/images/bradyon12.png)
+![Alt text](http://priolo.wktk.so/images/bradyon13.png)
+![Alt text](http://priolo.wktk.so/images/bradyon14.png)
 
 
 Features
